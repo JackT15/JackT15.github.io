@@ -1,0 +1,45 @@
+{
+	"meta": {
+		"title": "mi amor 🤍"
+	},
+	"theme": {
+		"backgroundStart": "#fff1f3",
+		"backgroundEnd": "#f6d9de",
+		"glow": "rgba(255, 164, 184, 0.38)",
+		"accent": "#b84f73",
+		"accentSoft": "#efb4c3",
+		"ink": "#4f2b35",
+		"muted": "#7f5c66",
+		"paper": "#fff9fa",
+		"paperShade": "#f3e1e7",
+		"envelopeBody": "#d86f8d",
+		"envelopeShadow": "#bf5a79",
+		"envelopeFlap": "#c85d7d",
+		"heart": "#d83a5d",
+		"seal": "#f0b8c6",
+		"sealShadow": "#c98297"
+	},
+	"layout": {
+		"envelopeWidth": 320,
+		"envelopeHeight": 210,
+		"heartSize": 46,
+		"envelopeOverlap": 46
+	},
+	"copy": {
+		"eyebrow": "for mi amor",
+		"title": "good morning my beautiful",
+		"subtitle": "",
+		"letterKicker": "My prince",
+		"letterHeading": "",
+		"paragraphs": [
+            "I hope you had the best dreams handsome, I spent all night wishing I could wake up to your beautiful face.",
+            "Thank you for making me feel so loved, listening to all my nerdy yaps like you're hanging on every single word.",
+            "You make me feel more loved than I could ever explain and I only hope I make you feel the same.",
+            "Keep me updated with absolutely everything, I love being a part of your life in every single way you let me in."
+        ],
+		"signature": "All yours, forever 🤍",
+		"hintClosed": "",
+		"hintOpen": "",
+		"sealSymbol": "❤"
+	}
+}

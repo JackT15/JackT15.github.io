@@ -1,4 +1,58 @@
 <!DOCTYPE html>
-<html>
-  <h1>oops</h1>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For My Love</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <main class="page-shell">
+        <section class="intro">
+            <p class="eyebrow" id="eyebrow"></p>
+            <h1 id="pageTitle"></h1>
+            <p class="subtitle" id="pageSubtitle"></p>
+        </section>
+
+        <section class="scene" aria-label="Romantic letter envelope">
+            <!-- The stage holds both the letter and the envelope. Its height
+                 is animated by script.js to exactly fit whatever is showing,
+                 so the letter never overflows or peeks out the bottom. -->
+            <div class="envelope-stage" id="envelopeStage">
+
+                <div class="letter-card" id="letterPanel">
+                    <div class="letter-card-inner">
+                        <span class="letter-kicker" id="letterKicker"></span>
+                        <h2 id="letterHeading"></h2>
+                        <div id="letterBody" class="letter-body"></div>
+                        <p class="signature" id="letterSignature"></p>
+                    </div>
+                </div>
+
+                <span class="hearts" id="hearts" aria-hidden="true">
+                    <span class="heart a1"></span>
+                    <span class="heart a2"></span>
+                    <span class="heart a3"></span>
+                </span>
+
+                <button id="envelope" class="envelope close" type="button" aria-expanded="false"
+                    aria-controls="letterPanel" aria-label="Open the letter">
+                    <span class="pocket"></span>
+                    <span class="flap"></span>
+                    <span class="seal" id="seal" aria-hidden="true"></span>
+                </button>
+
+            </div>
+
+            <p class="hint" id="hint"></p>
+        </section>
+    </main>
+
+</body>
+
 </html>
